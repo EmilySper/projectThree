@@ -1,0 +1,83 @@
+
+.plaster-regular {
+  font-family: "Plaster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.tilt-neon-<uniquifier> {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+ }
+ body{
+   background-color: rgb(232, 249, 254);
+ }
+ nav{
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   color: black;
+   margin-bottom: 10px;
+   font-size: 40px;
+   font-family: "Plaster", system-ui;
+ }
+ a.orange:hover{
+  color: #E97245
+}
+
+a.pink:hover{
+  color: #EF8CBC
+}
+
+a.blue:hover{
+  color: #2D79F6
+}
+
+a{
+   text-decoration: none;
+   color: black
+ }
+ h1{
+   font-size: 72px;
+   font-family: "Yeseva One", serif;
+   color: #F9D59B;
+
+ }
+ p{
+   font-size: 25px;
+   font-family: "Josefin Sans", sans-serif;
+   font-weight: 200;
+   color: #F2D9C5;
+ }
+ .content{
+   display: flex;
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+ }
+ .colOne{
+   padding-left: 100px;
+   padding-right: 100px;
+   
+ }
+ .colTwo{
+  margin-right: 100px;
+}
+footer{
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #F69C9E;
+   color: white;
+   font-size: 20px;
+   font-family: "Montserrat", sans-serif;
+}
